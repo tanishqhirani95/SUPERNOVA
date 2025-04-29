@@ -1,0 +1,94 @@
+Project Assignment Document  Business Website Development
+
+
+1. Business Name
+
+Parent Company: Supernova Artist Management
+
+
+2. Business Overview
+
+Supernova Artist Management, located in the vibrant city of Mumbai, specializes in providing exceptional entertainment solutions for parties and events. It was founded in 2022 by Mona Shah, Ami Shobhani and Shilpa Hirani. Whether you are planning an intimate gathering or a large celebration, they are dedicated to meeting all your entertainment needs. Their extensive roster features a diverse array of talented performers, including renowned singers who can set the perfect mood, energetic dancers who bring life to the party, mesmerizing magicians who captivate audiences with their illusions, hilarious comedians who deliver laughter and joy, and engaging speakers who can inspire and inform. With a commitment to excellence and a passion for entertainment, Supernova Artist Management ensures that every event becomes a memorable experience.
+
+3. Website Purpose
+
+showcase services, generate leads
+
+
+4. Target Audience
+
+- Describe ideal customers (age, interests, buying behavior)
+- Mention specific customer segments (e.g., health-conscious individuals, corporate clients, local shoppers)
+
+
+5. Products/Services Offered
+
+-Motivational speaker
+1.	Satish Dua
+-Singer
+1.	Gurdeep Mehendi
+2.	Aastha Gill
+3.	Jay Mehta
+4.	Euphony Band
+-Magician
+1.	Karan Chauhan
+
+
+6. Website Features Required
+
+- Homepage
+- About Us page
+- Products/Services page
+
+Project Assignment Document  Business Website Development
+
+
+- Contact Us page
+- Testimonials page
+
+
+7. Contact Information
+
+- Phone number = 98331444052
+- Email address = shilpahirani28@yahoo.co.in
+- Social media links = https://www.instagram.com/supernova_artist_management?igsh=MXh1NnY3aHFrd3JsNQ==
+
+
+8. Website Design Preferences
+
+- Color palette preferences = black, white and gold
+- Font style suggestions = Helvetica
+- Desired brand feeling/vibe (elegant)
+
+
+9. Tools and Technology to Use
+
+- Website building tools (e.g., HTML, CSS, JavaScript, WordPress, Shopify)
+- Frameworks or libraries (e.g., Bootstrap, React)
+- Hosting preference GitHub Pages,
+
+
+10. Basic Website Structure (Wireframe)
+
+Pages and Layout:
+- Homepage: Key sections like banner, quick highlights, call-to-action
+- About Us: Whether you are planning an intimate gathering or a large celebration, they are dedicated to meeting all your entertainment needs. Their extensive roster features a diverse array of talented performers, including renowned singers who can set the perfect mood, energetic dancers who bring life to the party, mesmerizing magicians who captivate audiences with their illusions, hilarious comedians who deliver laughter and joy, and engaging speakers who can inspire and inform. With a commitment to excellence and a passion for entertainment, Supernova Artist Management ensures that every event becomes a memorable experience.
+- Products/Services: Detailed listing
+
+Project Assignment Document  Business Website Development
+
+
+- Contact Us: Form, contact details, 
+- Inquire : name, artist requirement, date
+
+
+11. Sample Homepage Tagline
+
+Where Artists Shine Brighter
+
+
+12. Extra Notes
+
+- Online payment system not needed
+- Use of real photos 
+- Language preferences = English

@@ -1,0 +1,138 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 0 0% 7%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 0 0% 7%;
+  --card: 0 0% 100%;
+  --card-foreground: 0 0% 7%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 45 76% 52%;  /* Gold */
+  --primary-foreground: 0 0% 0%;
+  --secondary: 0 0% 7%;  /* Black */
+  --secondary-foreground: 0 0% 100%;
+  --accent: 45 76% 52%;
+  --accent-foreground: 0 0% 0%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 45 76% 52%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 0 0% 7%;  /* Black */
+  --foreground: 0 0% 100%;
+  --muted: 0 0% 20%;
+  --muted-foreground: 0 0% 70%;
+  --popover: 0 0% 7%;
+  --popover-foreground: 0 0% 100%;
+  --card: 0 0% 7%;
+  --card-foreground: 0 0% 100%;
+  --border: 0 0% 20%;
+  --input: 0 0% 20%;
+  --primary: 45 76% 52%;  /* Gold */
+  --primary-foreground: 0 0% 0%;
+  --secondary: 0 0% 100%;  /* White */
+  --secondary-foreground: 0 0% 7%;
+  --accent: 45 76% 52%;
+  --accent-foreground: 0 0% 0%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 45 76% 52%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-sans antialiased bg-background text-foreground;
+  }
+}
+
+/* Gold theme colors */
+@layer components {
+  .text-gold {
+    @apply text-[#D4AF37];
+  }
+  
+  .bg-gold {
+    @apply bg-[#D4AF37];
+  }
+  
+  .hover\:bg-gold:hover {
+    @apply hover:bg-[#D4AF37];
+  }
+  
+  .border-gold {
+    @apply border-[#D4AF37];
+  }
+  
+  .bg-gold-dark {
+    @apply bg-[#B38728];
+  }
+  
+  .bg-gold-light {
+    @apply bg-[#F2D675];
+  }
+  
+  .hover\:bg-gold-light:hover {
+    @apply hover:bg-[#F2D675];
+  }
+  
+  .bg-black {
+    @apply bg-[#121212];
+  }
+  
+  .bg-black-light {
+    @apply bg-[#333333];
+  }
+  
+  .hero-section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1586488902656-8f9c27dbe650?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .gold-underline {
+    position: relative;
+  }
+  
+  .gold-underline::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: #D4AF37;
+  }
+  
+  .artist-card:hover .artist-overlay {
+    opacity: 1;
+  }
+  
+  .artist-overlay {
+    transition: all 0.3s ease;
+    opacity: 0;
+  }
+  
+  .scroll-animation {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .scroll-animation.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

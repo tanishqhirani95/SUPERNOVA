@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supernova Artist Management</title>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/styles.css">
+    <!-- This is a replit script which adds a banner on the top of the page when opened in development mode outside the replit environment -->
+    <script type="text/javascript" src="https://replit.com/public/js/replit-dev-banner.js"></script>
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header id="header">
+        <div class="container">
+            <div class="logo">
+                <a href="#home" class="text-logo">
+                    <span>Supernova</span>
+                    <small>Artist Management</small>
+                </a>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#artists">Artists</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container">
+            <h1>Where Artists <span>Shine Brighter</span></h1>
+            <p>Premier entertainment solutions for your events and celebrations</p>
+            <div class="hero-buttons">
+                <a href="#services" class="btn btn-primary">Explore Services</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Us</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text scroll-animation">
+                    <h3>Mumbai's Premier <span>Artist Management</span> Company</h3>
+                    <p>Founded in 2022 by Mona Shah, Ami Shobhani and Shilpa Hirani, Supernova Artist Management specializes in providing exceptional entertainment solutions for parties and events in Mumbai.</p>
+                    <p>Whether you are planning an intimate gathering or a large celebration, we are dedicated to meeting all your entertainment needs with our diverse roster of talented performers.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <span>Renowned Singers</span>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-magic"></i>
+                            </div>
+                            <span>Mesmerizing Magicians</span>
+                        </div>
+                        <div class="feature">
+                            <div class="feature-icon">
+                                <i class="fas fa-microphone"></i>
+                            </div>
+                            <span>Engaging Speakers</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image scroll-animation">
+                    <img src="https://cdn.pixabay.com/photo/2019/11/10/11/13/concert-4615332_1280.jpg" alt="Corporate event">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Services</h2>
+                <p>We bring exceptional entertainment to elevate your events</p>
+            </div>
+            
+            <div class="services-container">
+                <div class="service-card scroll-animation">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Live music performance">
+                    </div>
+                    <div class="service-content">
+                        <h3>Live Music</h3>
+                        <p>Our roster includes talented singers and bands who can set the perfect mood for your event with genres ranging from classical to contemporary hits.</p>
+                        <a href="#artists" class="service-link">
+                            Explore Artists
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card scroll-animation">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1573511860302-28c11ff60075?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Magician performance">
+                    </div>
+                    <div class="service-content">
+                        <h3>Magic Shows</h3>
+                        <p>Our mesmerizing magicians captivate audiences with their illusions, creating memorable experiences that will leave your guests amazed.</p>
+                        <a href="#artists" class="service-link">
+                            Explore Artists
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="service-card scroll-animation">
+                    <div class="service-image">
+                        <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Motivational speaker">
+                    </div>
+                    <div class="service-content">
+                        <h3>Motivational Speakers</h3>
+                        <p>Our engaging speakers inspire and inform your audience, perfect for corporate events, conferences, and special gatherings.</p>
+                        <a href="#artists" class="service-link">
+                            Explore Artists
+                            <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Artists Section -->
+    <section id="artists" class="artists-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Our Artists</h2>
+                <p>Meet our exceptional roster of talented performers</p>
+            </div>
+            
+            <!-- Singers -->
+            <div class="artist-category">
+                <h3>Featured Singers</h3>
+                <div class="artist-grid">
+                    <div class="artist-card scroll-animation">
+                        <img src="https://images.unsplash.com/photo-1594913523369-fd8dfc5a8150?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Gurdeep Mehendi">
+                        <div class="artist-info">
+                            <h4>Gurdeep Mehendi</h4>
+                            <p>Vocalist</p>
+                        </div>
+                        <div class="artist-overlay">
+                            <h4>Gurdeep Mehendi</h4>
+                            <p class="artist-title">Bollywood Sensation</p>
+                            <p class="artist-desc">Known for soulful performances and versatile vocal range across Bollywood classics and contemporary hits.</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+
+                    <div class="artist-card scroll-animation">
+                        <img src="https://images.unsplash.com/photo-1577344718665-3e7c0c1ecf6b?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Aastha Gill">
+                        <div class="artist-info">
+                            <h4>Aastha Gill</h4>
+                            <p>Pop Artist</p>
+                        </div>
+                        <div class="artist-overlay">
+                            <h4>Aastha Gill</h4>
+                            <p class="artist-title">Pop Sensation</p>
+                            <p class="artist-desc">Chart-topping artist known for energetic performances and catchy pop hits that get the crowd moving.</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+
+                    <div class="artist-card scroll-animation">
+                        <img src="https://images.pexels.com/photos/6966/abstract-music-rock-bw.jpg?auto=compress&cs=tinysrgb&w=800" alt="Jay Mehta">
+                        <div class="artist-info">
+                            <h4>Jay Mehta</h4>
+                            <p>Classical Vocalist</p>
+                        </div>
+                        <div class="artist-overlay">
+                            <h4>Jay Mehta</h4>
+                            <p class="artist-title">Classical Maestro</p>
+                            <p class="artist-desc">Trained in classical traditions with the ability to blend traditional and modern styles for a unique experience.</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+
+                    <div class="artist-card scroll-animation">
+                        <img src="https://images.unsplash.com/photo-1471565661762-b9dfae862dbe?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Euphony Band">
+                        <div class="artist-info">
+                            <h4>Euphony Band</h4>
+                            <p>Live Band</p>
+                        </div>
+                        <div class="artist-overlay">
+                            <h4>Euphony Band</h4>
+                            <p class="artist-title">Fusion Ensemble</p>
+                            <p class="artist-desc">Five-piece band delivering powerful live performances across genres from rock and pop to jazz and folk fusion.</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Magicians -->
+            <div class="artist-category">
+                <h3>Magicians</h3>
+                <div class="featured-artist scroll-animation">
+                    <div class="featured-artist-content">
+                        <div class="featured-artist-image">
+                            <img src="https://images.unsplash.com/photo-1547586805-3f23f994a38c?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Karan Chauhan">
+                        </div>
+                        <div class="featured-artist-info">
+                            <h4>Karan Chauhan</h4>
+                            <p class="artist-title">Master Illusionist</p>
+                            <p class="artist-desc">With over a decade of experience, Karan Chauhan mesmerizes audiences with his mind-bending illusions and close-up magic. His interactive performances leave guests spellbound and create unforgettable memories.</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Speakers -->
+            <div class="artist-category">
+                <h3>Motivational Speakers</h3>
+                <div class="featured-artist scroll-animation">
+                    <div class="featured-artist-content reversed">
+                        <div class="featured-artist-info">
+                            <h4>Satish Dua</h4>
+                            <p class="artist-title">Inspirational Speaker</p>
+                            <p class="artist-desc">A captivating orator with expertise in leadership, personal growth, and motivation. Satish connects with audiences through powerful storytelling and practical insights that inspire action and positive change.</p>
+                            <a href="#contact" class="btn btn-primary">Book Now</a>
+                        </div>
+                        <div class="featured-artist-image">
+                            <img src="https://images.unsplash.com/photo-1475721027785-f74eccf877e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80" alt="Satish Dua">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Client Testimonials</h2>
+                <p>What our clients say about our services</p>
+            </div>
+            
+            <div class="testimonial-slider" id="testimonial-slider">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-content">
+                        <img src="https://images.unsplash.com/photo-1518049362265-d5b2a6467637?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Rajiv Malhotra">
+                        <div class="testimonial-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Supernova Artist Management exceeded our expectations! Gurdeep's performance at our corporate anniversary was spectacular. The team was professional from start to finish, handling all details with ease."</p>
+                            <h4>Rajiv Malhotra</h4>
+                            <p class="position">CEO, InnovateTech Solutions</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <img src="https://images.unsplash.com/photo-1512353087810-25dfcd100962?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Priya Sharma">
+                        <div class="testimonial-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"We hired Karan Chauhan for our company's Diwali celebration, and he was absolutely brilliant! His magic tricks captivated everyone, from interns to senior management. Will definitely book again!"</p>
+                            <h4>Priya Sharma</h4>
+                            <p class="position">HR Director, Global Finance Group</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-slide">
+                    <div class="testimonial-content">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="Anita Desai">
+                        <div class="testimonial-text">
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p>"Satish Dua's motivational talk at our annual conference was transformative. His message resonated deeply with our team, and we've seen positive changes in morale and productivity since. Brilliant communication throughout!"</p>
+                            <h4>Anita Desai</h4>
+                            <p class="position">Managing Director, Horizon Media</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-controls">
+                    <button class="testimonial-prev" aria-label="Previous testimonial">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <div class="testimonial-dots">
+                        <span class="dot active" data-index="0"></span>
+                        <span class="dot" data-index="1"></span>
+                        <span class="dot" data-index="2"></span>
+                    </div>
+                    <button class="testimonial-next" aria-label="Next testimonial">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Get In Touch</h2>
+                <p>Ready to elevate your event? Contact us to book your preferred artists</p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-form-container scroll-animation">
+                    <form id="contact-form" class="contact-form">
+                        <h3>Inquire Now</h3>
+                        
+                        <div id="form-success-message" class="form-success-message">
+                            Thank you for your inquiry! We will contact you soon.
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                            <span class="error-message" id="name-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email Address</label>
+                            <input type="email" id="email" name="email" required>
+                            <span class="error-message" id="email-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="tel" id="phone" name="phone" required>
+                            <span class="error-message" id="phone-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="artist">Artist Requirement</label>
+                            <select id="artist" name="artist">
+                                <option value="">Select Artist Category</option>
+                                <option value="singer">Singer</option>
+                                <option value="magician">Magician</option>
+                                <option value="speaker">Motivational Speaker</option>
+                                <option value="multiple">Multiple Artists</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="date">Event Date</label>
+                            <input type="date" id="date" name="date" required>
+                            <span class="error-message" id="date-error"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Additional Details</label>
+                            <textarea id="message" name="message" rows="4"></textarea>
+                        </div>
+                        
+                        <button type="submit" id="submit-btn" class="btn btn-primary btn-full">
+                            <span id="btn-text">Send Inquiry</span>
+                            <span id="btn-loading" class="btn-loading">
+                                <i class="fa fa-spinner fa-spin"></i> Processing...
+                            </span>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info-container scroll-animation">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Location</h4>
+                                <p>Mumbai, Maharashtra, India</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Phone</h4>
+                                <p>+91 9833 144 4052</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Email</h4>
+                                <p>shilpahirani28@yahoo.co.in</p>
+                            </div>
+                        </div>
+                        
+                        <div class="info-item">
+                            <div class="info-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="info-content">
+                                <h4>Business Hours</h4>
+                                <p>Monday - Saturday: 10:00 AM - 7:00 PM</p>
+                            </div>
+                        </div>
+                        
+                        <div class="social-media">
+                            <h4>Follow Us</h4>
+                            <div class="social-icons">
+                                <a href="https://www.instagram.com/supernova_artist_management?igsh=MXh1NnY3aHFrd3JsNQ==" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-facebook-f"></i>
+                                </a>
+                                <a href="#" target="_blank" rel="noopener noreferrer">
+                                    <i class="fab fa-linkedin-in"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <div class="text-logo footer-text-logo">
+                        <span>Supernova</span>
+                        <small>Artist Management</small>
+                    </div>
+                    <p>Where Artists Shine Brighter</p>
+                </div>
+                
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#artists">Artists</a></li>
+                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#services">Live Music</a></li>
+                        <li><a href="#services">Magic Shows</a></li>
+                        <li><a href="#services">Motivational Speakers</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-contact">
+                    <h3>Get In Touch</h3>
+                    <p><i class="fas fa-phone-alt"></i> +91 9833 144 4052</p>
+                    <p><i class="fas fa-envelope"></i> shilpahirani28@yahoo.co.in</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Mumbai, Maharashtra, India</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023-2025 Supernova Artist Management. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" aria-label="Back to top">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript -->
+    <script src="/script.js"></script>
+</body>
+</html>
